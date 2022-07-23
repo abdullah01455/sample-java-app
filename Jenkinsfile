@@ -14,8 +14,8 @@ pipeline {
 
         stage('Test'){
             steps {
-                sh "mvn -version"
-                sh"echo 'test done '"
+                sh "mvn test"
+              
             }
 
             post {
